@@ -29,3 +29,9 @@ Verify NVCC - the CUDA compiler-driver tool that is installed with the CUDA tool
 ```
 nvcc --version
 ```
+# CUDA device requested but no devices found.
+Ensure both PATH and LB_LIBRARY_PATH are set in bashrc
+```
+export PATH=$PATH:/usr/local/go/bin:/usr/local/cuda-12.5//bin
+export LD_LIBRARY_PATH=/usr/local/cuda-12.5/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+```
