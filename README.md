@@ -20,3 +20,12 @@ sudo ./cuda_12.5.0_555.42.02_linux.run
 or
 sudo apt install cuda-toolkit-12-5
 ```
+Verify the installation was successful, run the following command.
+```
+nvidia-smi
+```
+Note: Nvidia driver version 570 is backward compatibility for version 555.
+Verify NVCC - the CUDA compiler-driver tool that is installed with the CUDA toolkit, will always report the CUDA runtime version that it was built to recognize. It doesn't know anything about what driver version is installed, or even if a GPU driver is installed.
+```
+nvcc --version
+```
