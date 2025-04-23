@@ -24,6 +24,8 @@ Verify the installation was successful, run the following command.
 ```
 nvidia-smi
 ```
+![nvidia_smi](https://github.com/user-attachments/assets/53ece1c2-88f3-4f3b-967d-ee597f5cf8cc)
+
 Note: Nvidia driver version 570 is backward compatibility for version 555.
 Verify NVCC - the CUDA compiler-driver tool that is installed with the CUDA toolkit, will always report the CUDA runtime version that it was built to recognize. It doesn't know anything about what driver version is installed, or even if a GPU driver is installed.
 ```
