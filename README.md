@@ -10,6 +10,7 @@ Visit the official NVIDIA website to download [NVIDIA DRIVER](https://www.nvidia
 
 ## Install NVIDIA drivers in WSL
 Start the Ubuntu terminal and run the folowing command to update the packages.
-`
+
+```
 sudo apt update && upgrade
-`
+```
