@@ -13,3 +13,10 @@ Start the Ubuntu terminal and run the folowing command to update the packages.
 ```
 sudo apt update && upgrade
 ```
+Then, install the nvidia drivers according to the version. In this example, we installed version 555 on ubuntu 22.04.
+```
+wget https://developer.download.nvidia.com/compute/cuda/12.5.0/local_installers/cuda_12.5.0_555.42.02_linux.run
+sudo ./cuda_12.5.0_555.42.02_linux.run
+or
+sudo apt install cuda-toolkit-12-5
+```
