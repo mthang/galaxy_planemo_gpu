@@ -29,6 +29,15 @@ Verify NVCC - the CUDA compiler-driver tool that is installed with the CUDA tool
 ```
 nvcc --version
 ```
+
+# Install planemo
+Follow the instruction in [planemo](https://planemo.readthedocs.io/en/latest/installation.html) to install planemo
+
+# wrap a gpu tool and run planemo test. In this example, the dorado tool is a docker container
+```
+planemo test --docker --docker_run_extra_arguments ' --gpus all ' dorado-test-basecaller.xml
+```
+
 # CUDA device requested but no devices found.
 Ensure both PATH and LB_LIBRARY_PATH are set in bashrc
 ```
