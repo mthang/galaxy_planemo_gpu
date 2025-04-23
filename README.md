@@ -8,9 +8,3 @@
 ##  Install Graphics Card Drivers
 Visit the official NVIDIA website to download [NVIDIA DRIVER](https://www.nvidia.com/es-es/drivers/) and fill in the fields with the corresponding graphics card and OS information. Download the driver and run the file to install the driver on Windows OS.
 
-## Install NVIDIA drivers in WSL
-Start the Ubuntu terminal and run the folowing command to update the packages.
-
-```
-sudo apt update && upgrade
-```
